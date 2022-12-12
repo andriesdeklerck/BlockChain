@@ -168,11 +168,11 @@
 	},
 	"sources": {
 		"ExerciseOne/exercise1.sol": {
-			"keccak256": "0x50360d900d39cb1642bb98d13bfb8cb4fb5aacdcfab1325932cccf88222a116c",
+			"keccak256": "0xfba4f41423931353508a7cc3600982cf096308c39a5c6e818465f83fcb153caa",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://66e75bf0fa8f9f30402ec58f3eed46150e3ed74052abc496042db00fa07c5a60",
-				"dweb:/ipfs/QmUNpCyx6eQVmoZ4EJG3EMfSUsrT5nXQLXEYVFZJ8KDiGw"
+				"bzz-raw://f2fd546ff36347075bb9caee701410a8ce3ac2f85e217dfeba6c25a84f988a67",
+				"dweb:/ipfs/QmbRPTKmHhk3bXDQf9ChF2orExgPnAVJ5YBqTTfEg2gSaP"
 			]
 		}
 	},
