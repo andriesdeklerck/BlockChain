@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"examples/simpleStorage/simplestorage.sol": "SimpleStorage"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"examples/simpleStorage/simplestorage.sol": {
+			"keccak256": "0xd4df42a2ebc52f5b7f15684d645ccbdecfe2673649ba7299bff2e02f1588fee5",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ddd83f79a22d5f0544a2f15b1974d9ffecb6c214904c8f99d432c65a76032ee3",
+				"dweb:/ipfs/QmWdSheRZZ9kRAvuoKxEJjBSNhiAXrTmoxrPaFrUk9rNe2"
+			]
+		}
+	},
+	"version": 1
+}

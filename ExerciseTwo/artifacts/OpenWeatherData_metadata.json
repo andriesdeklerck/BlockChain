@@ -1,0 +1,199 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string[]",
+						"name": "cities",
+						"type": "string[]"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "Temperature",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "WindSpeed",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "PercentageRain",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "WindDirection",
+								"type": "string"
+							}
+						],
+						"internalType": "struct OpenWeatherData.WeatherData[]",
+						"name": "_weatherData",
+						"type": "tuple[]"
+					}
+				],
+				"name": "AddNewData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "place",
+						"type": "string"
+					}
+				],
+				"name": "GetCityData",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "Temperature",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "WindSpeed",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "PercentageRain",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "WindDirection",
+								"type": "string"
+							}
+						],
+						"internalType": "struct OpenWeatherData.WeatherData",
+						"name": "_weatherData",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "place",
+						"type": "string"
+					}
+				],
+				"name": "GetCityTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "age",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "weatherByPlace",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "Temperature",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "WindSpeed",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "PercentageRain",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "WindDirection",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ExerciseTwo/exercise2.sol": "OpenWeatherData"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ExerciseTwo/exercise2.sol": {
+			"keccak256": "0x3ba1c4d16b584f89a64842e202acd84af011ab884a2a00ce3d92bdbb018959a1",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://2202739ed8801b6a49b2d0bc9a7377cb7c09d5a774d0d6c8378d1fd8f7898d26",
+				"dweb:/ipfs/QmdYjEVHcSuiCcVcWfN4yB72Yv6CgGa4GncpiTE5w3nDKx"
+			]
+		}
+	},
+	"version": 1
+}

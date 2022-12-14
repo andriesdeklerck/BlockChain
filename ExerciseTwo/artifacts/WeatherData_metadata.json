@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ExerciseTwo/exercise2.sol": "WeatherData"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ExerciseTwo/exercise2.sol": {
+			"keccak256": "0xc5794db638ca1ca206ad430480d43f13a078553e8e3c69adaf6e3023cb3d17a6",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bf8c3b0d2535e78eb0ff6e204305cb700fd504beafc12bd6cd91122f07987bda",
+				"dweb:/ipfs/QmdvsncTg9tTz8KhvmEF6ViJPLYto9fpCUdYitq8ypYGf4"
+			]
+		}
+	},
+	"version": 1
+}
